@@ -1,0 +1,54 @@
+/*author: BridgetGyasi
+project: mya
+date: 5/3/18
+email: brigakyaa@gmail.com*/
+
+@import url('bootstrap.min.css');
+@import url('font-awesome.min.css');
+
+.carousel-wrapper{
+	width: 100%;
+	height: 400px;
+	float: left;
+}
+
+.services{
+	width: 100%;
+	height: 400px;
+	float: left;
+	
+}
+
+.img-holder{
+    width: 100%;
+	height: 400px;
+	float: left;
+	background-image: url("../img/backdrop.jpg");
+	background-position: center center;
+	background-size: cover;
+}
+.portfolio{
+	width: 100%;
+	height: 400px;
+	float: left;
+}
+
+.port-img{
+	width: 100%;
+	height: 400px;
+	background-color: red;
+	float: left;
+}
+
+.social-media{
+	width: 100%;
+	padding: 40px 0;
+	float: left;
+}
+
+
+.social-media ul li{
+	margin: 5px 10px;
+}
+
+
