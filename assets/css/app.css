@@ -39,6 +39,33 @@ email: brigakyaa@gmail.com*/
 	float: left;
 }
 
+/* Create two equal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 65%;
+    padding-left: 20px;
+    justify-content: center;
+    color: pink;
+
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 35%;
+    padding-left: 20px;
+    justify-content: center;
+    color: pink;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* this styles the background image in portfolio*/
 .port-img{
 	width: 100%;
 	height: 400px;
@@ -57,23 +84,12 @@ email: brigakyaa@gmail.com*/
 	margin: 5px 10px;
 }
 
-.about-us{
-	height: 300px;
-	float: left;
-	background-color: pink;
-	color: red;
-	text-align: center;
-	background-image: url("../img/afia.jpg");
-	background-position: center center;
-	background-size: cover;
-	font-size: 100%;
-	font-family: sans-serif;
-}
 
 
 ul {
 	text-decoraton: none;
 	align-items: center;
+	display: inline-flex;
 	}
 
 li{
@@ -87,7 +103,7 @@ li{
 
 .box{
 	height: 50px;
-    width : 200px;
+    width : 270px;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.10), 0 3px 6px rgba(0,0,0,0.30);
     margin : 3% 5%;
     text-align: center;
@@ -107,14 +123,14 @@ li{
 	color : white;
     background-color: rgba(49, 132, 155, 0.6);
     /*background-image: linear-gradient(125deg,  white -50%, teal 100%);*/
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding : 5%;
-    width: 400px;
+    padding : 1%;
+    width: 100%;
     align-items: center;
-    border-radius: 50px;
+    border-radius: 100px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.15), 0 3px 5px rgba(0,0,0,0.20);
    }
