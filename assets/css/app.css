@@ -8,55 +8,73 @@ email: brigakyaa@gmail.com*/
 
 .carousel-wrapper{
 	width: 100%;
-	height: 400px;
+	/*height: 400px;*/
 	float: left;
 }
 
-.services{
+
+
+.carousel-inner > .carousel-item > img {
+/*  position: absolute;*/
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 700px;
+}
+
+
+/*.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}*/
+
+/*.services{
 	width: 100%;
 	height: 400px;
 	float: left;
 	
-}
+}*/
 
 .img-holder{
-    width: 100%;
-	height: 400px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 100%;
+	/*height: 400px;*/
 	float: left;
-	background-image: url("../img/backdrop.jpg");
-	background-position: center center;
+	background-image: url("../img/pexels-photo-324657.jpeg");
+	background-position: center;
 	background-size: cover;
 	text-align: center;
 	opacity: 0.9;
-  filter: alpha
-  (opacity=90);
-  text-decoration-style: wavy;
+  /*filter: alpha*/
+ /* (opacity=90);*/
+  /*text-decoration-style: wavy;*/
 }
 
-.portfolio{
+/*.portfolio{
 	width: 100%;
 	height: 400px;
 	float: left;
-}
+}*/
 
 /* Create two equal columns that floats next to each other */
 /* Left column */
 .leftcolumn {   
-    float: left;
+ /*   float: left;
     width: 65%;
-    padding-left: 20px;
-    justify-content: center;
-    color: pink;
+    padding-left: 20px;*/
+    text-align:  center;
+    color: black;
 
 }
 
 /* Right column */
 .rightcolumn {
-    float: left;
+    /*float: left;
     width: 35%;
-    padding-left: 20px;
-    justify-content: center;
-    color: pink;
+    padding-left: 20px;*/
+    text-align:  center;
+    /*color: white;*/
 }
 
 /* Clear floats after the columns */
@@ -65,12 +83,14 @@ email: brigakyaa@gmail.com*/
     display: table;
     clear: both;
 }
+
+
 /* this styles the background image in portfolio*/
 .port-img{
 	width: 100%;
 	height: 400px;
-	background-color: lightblue;
-	float: left;
+	/*background-color: lightblue;*/
+	/*float: left;*/
 }
 
 .social-media{
@@ -87,7 +107,7 @@ email: brigakyaa@gmail.com*/
 
 
 ul {
-	text-decoraton: none;
+	text-decoration: none;
 	align-items: center;
 	display: inline-flex;
 	}
@@ -107,21 +127,21 @@ li{
 	box-shadow: 0 3px 6px rgba(0,0,0,0.10), 0 3px 6px rgba(0,0,0,0.30);
     margin : 3% 5%;
     text-align: center;
-    background-color: lightblue;
-    background-image: linear-gradient(125deg,  white -90%, teal 100%);
+  /*  background-color: lightblue;*/
+    /*background-image: linear-gradient(125deg,  white -90%, teal 100%);*/
     opacity: 0.6;
-    color : #ffffff;
+    /*color : #ffffff;*/
     display: flex;
   	align-items: center;
   	justify-content: center;
   	border-radius: 25px;
-	opacity: 0.8;
+	/*opacity: 0.8*/;
 }
 
 
 .options{
 	color : white;
-    background-color: rgba(49, 132, 155, 0.6);
+   /* background-color: rgba(49, 132, 155, 0.6);*/
     /*background-image: linear-gradient(125deg,  white -50%, teal 100%);*/
     display: inline-flex;
     flex-wrap: wrap;
@@ -132,5 +152,16 @@ li{
     width: 100%;
     align-items: center;
     border-radius: 100px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.15), 0 3px 5px rgba(0,0,0,0.20);
+    /*box-shadow: 0 3px 6px rgba(0,0,0,0.15), 0 3px 5px rgba(0,0,0,0.20);*/
    }
+
+.footer{
+    background-color: #e6e6e6;
+/*  opacity: 0.2;*/
+    width: 100%;
+    float: left;
+  /*color: oldlace;*/
+    color: black;
+    text-align: center;
+}
+
